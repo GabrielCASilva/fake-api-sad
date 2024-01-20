@@ -1,0 +1,172 @@
+{
+  "tarefas": [
+    {
+      "id": 1,
+      "nome": "tirar o lixo do jardimBotanico",
+      "descricao": "descricao",
+      "dataCriacao": "03/02/2023",
+      "dataPrevistaConclusao": "20/02/2023",
+      "dataConclusao": "",
+      "taxaProgresso": 30.0,
+      "funcionarioAlocadoId": 1,
+      "funcionarioResponsavelId": 2,
+      "idMeta": 1,
+      "idSituacaoServico": 1
+    },
+    {
+      "id": 2,
+      "nome": "segunda tarefa",
+      "descricao": "descricao",
+      "dataCriacao": "03/02/2023",
+      "dataPrevistaConclusao": "20/02/2023",
+      "dataConclusao": "10/02/2023",
+      "taxaProgresso": 100.0,
+      "funcionarioAlocadoId": 1,
+      "funcionarioResponsavelId": 2,
+      "idMeta": 1,
+      "idSituacaoServico": 1
+    },
+    {
+      "id": 3,
+      "nome": "terceira tarefa",
+      "descricao": "descricao",
+      "dataCriacao": "04/01/2024",
+      "dataPrevistaConclusao": "20/02/2023",
+      "dataConclusao": "",
+      "taxaProgresso": 30.0,
+      "funcionarioAlocadoId": 1,
+      "funcionarioResponsavelId": 2,
+      "idMeta": 1,
+      "idSituacaoServico": 1
+    }
+  ],
+  "funcionarios": [
+    {
+      "id": 1,
+      "dataCadastro": "02/05/2022",
+      "nome": "Fernanda da Costa Lima",
+      "email": "fernanda_costa@gmail.com",
+      "cpf": "123.456.789-09",
+      "dataNascimento": "01/02/1992",
+      "sexo": "F",
+      "cep": "22210-030",
+      "endereco": "Rua do Catete, 200",
+      "telefone": "+55 21 98965-5214",
+      "foto": "https://img.freepik.com/fotos-gratis/feliz-bonito-mulher-jovem-posar-camera-em-parque-cidade_1262-19158.jpg",
+      "login": "fernandalima",
+      "senhaHash": "e8d95a51f3af4a3b134bf6bb680a213a",
+      "cargoId": 1,
+      "setor": {"nome": "Botânico"},
+      "situacoesId": 1
+    },
+    {
+      "id": 2,
+      "nome": "John Doe",
+      "email": "johndoe@gmail.com",
+      "login": "johndoe",
+      "senhaHash": "john",
+      "dataCadastro": "02/05/2022",
+      "cpf": "123.456.789-09",
+      "dataNascimento": "01/02/1992",
+      "sexo": "F",
+      "cep": "22210-030",
+      "endereco": "Rua do Catete, 200",
+      "telefone": "+55 21 98965-5214",
+      "foto": "https://img.freepik.com/fotos-gratis/feliz-bonito-mulher-jovem-posar-camera-em-parque-cidade_1262-19158.jpg",
+      "cargoId": 2,
+      "setor": {"nome": "Botânico"},
+      "situacoesId": 1
+ 
+  }
+  ],
+  "metas": [
+    {
+      "id": 1,
+      "nome": "Limpesa do jardim botânico",
+      "descricao": "",
+      "dataCriacao": "",
+      "dataPrevistaConclusao": "",
+      "dataConclusao": "",
+      "funcionarioId": 1,
+      "setorId": 1,
+      "situacaoServicoId": 1
+    }
+  ],
+  "cargos":[
+    {
+      "id": 1,
+      "nome": "Servidor",
+      "tipoAvaliacao": "nenhum",
+      "permitidoManterMeta": false,
+      "permitidoAvaliacaoServidor": false,
+      "permitidoAvaliacaoSupervisor": false,
+      "permitidoManterFuncionario": false,
+      "permitidoManterSetor": false,
+      "permitidoManterTarefa": false,
+      "permitidoAtribuirTarefa": true,
+      "permitidoProgredirTarefa": true
+    },
+    {
+      "id": 2,
+      "nome": "Supervisor",
+      "tipoAvaliacao": "servidor",
+      "permitidoManterMeta": false,
+      "permitidoAvaliacaoServidor": true,
+      "permitidoAvaliacaoSupervisor": false,
+      "permitidoManterFuncionario": false,
+      "permitidoManterSetor": false,
+      "permitidoManterTarefa": true,
+      "permitidoAtribuirTarefa": false,
+      "permitidoProgredirTarefa": false
+    },
+    {
+      "id": 3,
+      "nome": "Diretor",
+      "tipoAvaliacao": "supervisor",
+      "permitidoManterMeta": true,
+      "permitidoAvaliacaoServidor": false,
+      "permitidoAvaliacaoSupervisor": true,
+      "permitidoManterFuncionario": false,
+      "permitidoManterSetor": false,
+      "permitidoManterTarefa": false,
+      "permitidoAtribuirTarefa": false,
+      "permitidoProgredirTarefa": false
+    },
+    {
+      "id": 4,
+      "nome": "Administrador",
+      "tipoAvaliacao": "nenhum",
+      "permitidoManterMeta": false,
+      "permitidoAvaliacaoServidor": false,
+      "permitidoAvaliacaoSupervisor": false,
+      "permitidoManterFuncionario": true,
+      "permitidoManterSetor": true,
+      "permitidoManterTarefa": false,
+      "permitidoAtribuirTarefa": false,
+      "permitidoProgredirTarefa": false
+    }
+  ],
+  "setores": [
+    {
+      "id": 1,
+      "nome": "",
+      "localizacao": "",
+      "ramal": "",
+      "funcionario": 1
+    }
+  ],
+  "situacoesServicos": [
+    {
+      "id": 1,
+      "nome": "",
+      "descricao": ""
+    }
+  ],
+  "situacoesFuncionarios": [
+    {
+      "id": 1,
+      "nome": "",
+      "descricao": ""
+    }
+  ]
+}
