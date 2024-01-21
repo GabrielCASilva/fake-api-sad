@@ -56,6 +56,7 @@
       "login": "fernandalima",
       "senhaHash": "e8d95a51f3af4a3b134bf6bb680a213a",
       "cargoId": 1,
+      "cargo": {"nome": "Servidor"},
       "setor": {"nome": "Botânico"},
       "situacoesId": 1
     },
@@ -74,6 +75,7 @@
       "telefone": "+55 21 98965-5214",
       "foto": "https://img.freepik.com/fotos-gratis/feliz-bonito-mulher-jovem-posar-camera-em-parque-cidade_1262-19158.jpg",
       "cargoId": 2,
+      "cargo": {"nome": "Supervisor"},
       "setor": {"nome": "Botânico"},
       "situacoesId": 1
  
